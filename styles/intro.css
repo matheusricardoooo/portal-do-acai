@@ -26,3 +26,65 @@
 #inicio .right {
     padding: 173px 98px 0px 0px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    #inicio {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #inicio .left {
+        padding: 0;
+        padding-top: 190px;
+    }
+
+    #inicio .left p {
+        font-size: 2.5rem;
+        width: 581px;
+    }
+
+    #inicio .right {
+        padding: 0;
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #inicio .left {
+        padding: 0;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+
+    #inicio .left p {
+        font-size: 2.2rem;
+    }
+
+    #inicio .right {
+        padding: 0;
+        padding-top: 80px;
+    }
+
+    #inicio .right img {
+        width: 334px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #inicio .left {
+        padding: 0;
+        padding-top: 90px;
+    }
+
+    #inicio .left p {
+        width: 300px;
+        font-size: 1.3rem;
+    }
+
+    #inicio .right img {
+        width: 294px;
+    }
+}
