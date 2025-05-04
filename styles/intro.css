@@ -1,0 +1,28 @@
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 95vh;
+    background-color: #E19A02;
+}
+
+#inicio .left {
+    padding: 140px 0px 0px 120px;
+}
+
+#inicio .left p {
+    width: 481px;
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #68004a;
+}
+
+.color {
+    color: #038103;
+}
+
+#inicio .right {
+    padding: 173px 98px 0px 0px;
+}

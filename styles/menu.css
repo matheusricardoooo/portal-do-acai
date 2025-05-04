@@ -5,6 +5,7 @@
     background-color: #7B0058;
     width: 100vw;
     height: 10vh;
+    position: fixed;
 }
 
 .menu .left img {
