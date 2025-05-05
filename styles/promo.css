@@ -5,7 +5,7 @@
 
 .tittle {
     display: flex;
-    padding: 110px 0px 0px 650px;
+    padding: 70px 0px 25px 650px;
     color: #7B0058;
     font-family: "Poppins", serif;
     font-size: 1.5rem;
@@ -17,7 +17,6 @@
     background-color: #7B0058;
     width: 60vw;
     margin-left: 20%;
-    margin-top: 10%;
     border-radius: 20px;
     gap: 30px;
     padding-bottom: 20px;
